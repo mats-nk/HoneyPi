@@ -12,18 +12,24 @@ That is why HoneyPi tries to keep it simple compared to other honeypots. HoneyPi
  3. Telnet Connection Attempts
  4. VNC Connection Attempts
 
-Wrap up this simplicity in a way that is designed to be deployed on a RaspberryPi and you've got a simple honeypot that you can add to your network to get insight when you are under attack.
+Wrap up this simplicity in a way that is designed to be deployed on a Raspberry Pi and you've got a simple honeypot that you can add to your network to get insight when you are under attack.
 
 ## Installation
 
-You'll need a Raspberry Pi running Rasbian.
+You'll need a Raspberry Pi running Rasberry Pi OS.
 
 From the Pi, do this:
- 1. wget https://github.com/mattymcfatty/HoneyPi/archive/master.zip
- 2. unzip master.zip
- 3. cd HoneyPi-master
- 4. chmod +x *.sh
- 4. sudo ./honeyPiInstaller.sh
- 5. Follow the prompts.
+
+`wget https://github.com/mattymcfatty/HoneyPi/archive/master.zip`
+
+`unzip master.zip`
+
+`cd HoneyPi-master`
+
+`chmod +x *.sh`
+
+`sudo ./honeyPiInstaller.sh`
+
+Follow the prompts.
  
-Please note: Installing this will do some things to your Raspberry Pi. Most notably, it will change your iptables. Please proceed with caution if you are using this Raspberry Pi for other purposes.
+**Please note:** Installing this will do some things to your Raspberry Pi. Most notably, it will change your iptables. Please proceed with caution if you are using this Raspberry Pi for other purposes.
